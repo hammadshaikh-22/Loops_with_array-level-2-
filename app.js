@@ -86,3 +86,19 @@ if(count==0){
 else{
     console.log("This number do exist in array")
 }
+
+var arr6=[4,5,2,3,8,9,6,1,7,0]
+var num= +prompt("Enter any number form 0-9")
+for(var i=0; i<arr6.length;i++){
+    if(arr6[i]==num){
+        console.log(i," is the index of the given number")
+    }
+}
+
+var arr7=[2,3,47,5,65,9,3,11,0,1,33]
+for(var i=0;i<arr7.length;i++){
+    if(arr7[i]>10){
+        console.log("Numbers greater than 10: ",arr7[i])
+        
+    }
+}
